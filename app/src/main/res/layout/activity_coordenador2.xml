@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity_coordenador">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="291dp"
+        android:layout_height="283dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.00999999"
+        app:srcCompat="@drawable/gordinhoto" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="COORDENADOR DO CURSO"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        app:layout_constraintVertical_bias="0.017" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Prof. Me. José Paulo Codinhoto"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="0dp"
+        android:layout_height="357dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:text='Possui Graduação em Sistemas de Informação pelo Centro Universitário de Jales - UNIJALES(2013), Formação Pedagógica em Matemática (2018), Especialização em Desenvolvimento de Software para Web pela Faculdades Integradas de Santa Fé do Sul(2015), Especialização em Tutoria em Educação a Distância(2018), Especialização em MBA em Gestão Empresarial e Consultoria, Especilização em Formação Pedagógica para Educação Profissional pelo Centro Paula Souza - CPS, Especialização em Formação Docente em Educação a Distância pelo Centro Universitário de Jales, Mestrado em Engenharia Elétrica pela Universidade Estadual Paulista "Júlio de Mesquita Filho" - UNESP. Atualmente Coordenador, docente e Presidente da CPA no Centro Universitário de Jales - UNIJALES, Coordenador no Centro Universitário de Santa Fé do Sul - UNIFUNEC e membro da CPA, Docente e Coordenador no Centro Estadual de Educação Tecnológica Paula Souza - CEETEPS.'
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
