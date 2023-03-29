@@ -30,7 +30,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView5"
-        app:layout_constraintVertical_bias="0.07999998" />
+        app:layout_constraintVertical_bias="0.060000002" />
 
     <TextView
         android:id="@+id/textView8"
@@ -50,22 +50,23 @@
     <TextView
         android:id="@+id/textView9"
         android:layout_width="0dp"
-        android:layout_height="224dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginEnd="20dp"
+        android:layout_height="289dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginEnd="13dp"
+        android:layoutDirection="ltr"
         android:scrollbars="vertical"
-        android:text='Graduação em Sistemas de Informação pelo Centro Universitário de Jales - UNIJALES(2013);
-                                   Pedagógia em Matemática (2018);
-                                        Especialização em Desenvolvimento de Software para Web pela Faculdades Integradas de Santa Fé do Sul(2015);
-                                     Especialização em Tutoria em Educação a Distância(2018);
-                      Especialização em MBA em Gestão Empresarial e Consultoria;
-                                    Especilização em Formação Pedagógica para Educação Profissional pelo Centro Paula Souza - CPS;
-                                             Especialização em Formação Docente em Educação a Distância pelo Centro Universitário de Jales;
-                                                    Mestrado em Engenharia Elétrica pela Universidade Estadual Paulista "Júlio de Mesquita Filho" - UNESP;
-                                                    Atualmente Coordenador, docente e Presidente da CPA no Centro Universitário de Jales - UNIJALES;
-                                                         Coordenador no Centro Universitário de Santa Fé do Sul - UNIFUNEC;
-                                                        Membro da CPA;
-                                                    Docente e Coordenador no Centro Estadual de Educação Tecnológica Paula Souza - CEETEPS.'
+        android:text='• Graduação em Sistemas de Informação pelo Centro Universitário de Jales - UNIJALES(2013).\n
+                                                                                  • Pedagógia em Matemática (2018).\n
+                                                                                  • Especialização em Desenvolvimento de Software para Web pela Faculdades Integradas de Santa Fé do Sul(2015).\n
+                                                                                  • Especialização em Tutoria em Educação a Distância(2018).\n
+                                                                                  • Especialização em MBA em Gestão Empresarial e Consultoria.\n
+                                                                                  • Especilização em Formação Pedagógica para Educação Profissional pelo Centro Paula Souza - CPS.\n
+                                                                                  • Especialização em Formação Docente em Educação a Distância pelo Centro Universitário de Jales.\n
+                                                                                  • Mestrado em Engenharia Elétrica pela Universidade Estadual Paulista "Júlio de Mesquita Filho" - UNESP.\n
+                                                                                  • Atualmente Coordenador, docente e Presidente da CPA no Centro Universitário de Jales - UNIJALES.\n
+                                                                                  • Coordenador no Centro Universitário de Santa Fé do Sul - UNIFUNEC.\n
+                                                                                  • Membro da CPA.\n
+                                                                                  • Docente e Coordenador no Centro Estadual de Educação Tecnológica Paula Souza - CEETEPS.'
         android:textColor="#000000"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"

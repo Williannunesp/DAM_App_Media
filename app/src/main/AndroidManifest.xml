@@ -12,6 +12,9 @@
         android:theme="@style/Theme.DAM_App_Media"
         tools:targetApi="31">
         <activity
+            android:name=".Activity_cad_aluno"
+            android:exported="false" />
+        <activity
             android:name=".Activity_coordenador"
             android:exported="false" />
         <activity
