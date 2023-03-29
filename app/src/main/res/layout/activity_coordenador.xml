@@ -14,7 +14,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.00999999"
+        app:layout_constraintVertical_bias="0.035"
         app:srcCompat="@drawable/gordinhoto" />
 
     <TextView
@@ -27,10 +27,10 @@
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView5"
-        app:layout_constraintVertical_bias="0.017" />
+        app:layout_constraintVertical_bias="0.07999998" />
 
     <TextView
         android:id="@+id/textView8"
@@ -42,6 +42,7 @@
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView7"
         app:layout_constraintVertical_bias="0.0" />
@@ -49,16 +50,29 @@
     <TextView
         android:id="@+id/textView9"
         android:layout_width="0dp"
-        android:layout_height="357dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginEnd="8dp"
-        android:text='Possui Graduação em Sistemas de Informação pelo Centro Universitário de Jales - UNIJALES(2013), Formação Pedagógica em Matemática (2018), Especialização em Desenvolvimento de Software para Web pela Faculdades Integradas de Santa Fé do Sul(2015), Especialização em Tutoria em Educação a Distância(2018), Especialização em MBA em Gestão Empresarial e Consultoria, Especilização em Formação Pedagógica para Educação Profissional pelo Centro Paula Souza - CPS, Especialização em Formação Docente em Educação a Distância pelo Centro Universitário de Jales, Mestrado em Engenharia Elétrica pela Universidade Estadual Paulista "Júlio de Mesquita Filho" - UNESP. Atualmente Coordenador, docente e Presidente da CPA no Centro Universitário de Jales - UNIJALES, Coordenador no Centro Universitário de Santa Fé do Sul - UNIFUNEC e membro da CPA, Docente e Coordenador no Centro Estadual de Educação Tecnológica Paula Souza - CEETEPS.'
-        android:textSize="16sp"
+        android:layout_height="224dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:scrollbars="vertical"
+        android:text='Graduação em Sistemas de Informação pelo Centro Universitário de Jales - UNIJALES(2013);
+                                   Pedagógia em Matemática (2018);
+                                        Especialização em Desenvolvimento de Software para Web pela Faculdades Integradas de Santa Fé do Sul(2015);
+                                     Especialização em Tutoria em Educação a Distância(2018);
+                      Especialização em MBA em Gestão Empresarial e Consultoria;
+                                    Especilização em Formação Pedagógica para Educação Profissional pelo Centro Paula Souza - CPS;
+                                             Especialização em Formação Docente em Educação a Distância pelo Centro Universitário de Jales;
+                                                    Mestrado em Engenharia Elétrica pela Universidade Estadual Paulista "Júlio de Mesquita Filho" - UNESP;
+                                                    Atualmente Coordenador, docente e Presidente da CPA no Centro Universitário de Jales - UNIJALES;
+                                                         Coordenador no Centro Universitário de Santa Fé do Sul - UNIFUNEC;
+                                                        Membro da CPA;
+                                                    Docente e Coordenador no Centro Estadual de Educação Tecnológica Paula Souza - CEETEPS.'
+        android:textColor="#000000"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView8"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.376" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
