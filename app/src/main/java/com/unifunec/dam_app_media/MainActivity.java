@@ -19,10 +19,29 @@ public class MainActivity extends AppCompatActivity {
 
         Button cor = findViewById(R.id.btn_coor);
 
+        Button cm = findViewById(R.id.btn_Media);
+
+        Button cad = findViewById(R.id.btn_Cad);
+
+
         cor.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(MainActivity.this, Activity_coordenador.class));
+            }
+        });
+
+        cm.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, Activity_calculo_media.class));
+            }
+        });
+
+        cad.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, Activity_cad_aluno.class));
             }
         });
 

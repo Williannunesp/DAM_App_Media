@@ -12,7 +12,11 @@
         android:theme="@style/Theme.DAM_App_Media"
         tools:targetApi="31">
         <activity
+<<<<<<< Updated upstream
             android:name=".Activity_cad_aluno"
+=======
+            android:name=".Activity_calculo_media"
+>>>>>>> Stashed changes
             android:exported="false" />
         <activity
             android:name=".Activity_coordenador"
