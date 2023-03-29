@@ -19,12 +19,12 @@
         app:layout_constraintHorizontal_bias="0.045"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.153" />
 
     <TextView
         android:id="@+id/textCpf"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="44dp"
+        android:layout_height="37dp"
         android:text="CPF:"
         android:textColor="#000000"
         android:textSize="20sp"
@@ -32,7 +32,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.043"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textNome" />
+        app:layout_constraintTop_toBottomOf="@+id/textNome"
+        app:layout_constraintVertical_bias="0.615" />
 
     <TextView
         android:id="@+id/textCurso"
@@ -46,6 +47,7 @@
         app:layout_constraintHorizontal_bias="0.045"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+<<<<<<< Updated upstream
         app:layout_constraintVertical_bias="0.251" />
 
     <TextView
@@ -87,6 +89,9 @@
         app:layout_constraintHorizontal_bias="0.533"
         app:layout_constraintStart_toEndOf="@+id/textCurso"
         app:layout_constraintTop_toBottomOf="@+id/textCampoCpf" />
+=======
+        app:layout_constraintVertical_bias="0.29000002" />
+>>>>>>> Stashed changes
 
     <ImageView
         android:id="@+id/imageViewLogoUnifunec"
@@ -122,9 +127,56 @@
         android:text="Foto:"
         app:layout_constraintBottom_toTopOf="@+id/imageViewLogoUnifunec"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.527"
+        app:layout_constraintHorizontal_bias="0.271"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.74" />
+        app:layout_constraintVertical_bias="0.738" />
+
+    <EditText
+        android:id="@+id/editTextCampoNome"
+        android:layout_width="280dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:hint="digite seu nome"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageViewLogoUnifunec"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.786"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.074" />
+
+    <EditText
+        android:id="@+id/editTextCampoCpf"
+        android:layout_width="280dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:hint="digite seu cpf"
+        android:inputType="numberSigned"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageViewLogoUnifunec"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.786"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.173" />
+
+    <EditText
+        android:id="@+id/editTextCampoCurso"
+        android:layout_width="280dp"
+        android:layout_height="47dp"
+        android:ems="10"
+        android:hint="digite o curso"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageViewLogoUnifunec"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.786"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.271" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
