@@ -2,11 +2,16 @@ package com.unifunec.dam_app_media;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.Activity;
+import android.app.AlertDialog;
 import android.os.Bundle;
 import android.view.View;
+import android.view.Window;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class Activity_calculo_media extends AppCompatActivity {
 
@@ -14,6 +19,7 @@ public class Activity_calculo_media extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_calculo_media);
+        this.setTitle("CALCULO DE MÉDIA");
 
         EditText nota1 = findViewById(R.id.edit_Nota1);
         EditText nota2 = findViewById(R.id.edit_Nota2);
@@ -25,9 +31,15 @@ public class Activity_calculo_media extends AppCompatActivity {
         Button calcular = findViewById(R.id.btn_Calcular);
         Button limpar = findViewById(R.id.btn_Limpar);
 
+        nota1.setFocusable(true);
         calcular.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
+                InputMethodManager imm = (InputMethodManager) getSystemService(Activity.INPUT_METHOD_SERVICE);
+                if(imm.isActive())
+                    imm.toggleSoftInput(InputMethodManager.HIDE_IMPLICIT_ONLY, 0);
+
                 calcular.setEnabled(false);
                 limpar.setEnabled(true);
 
