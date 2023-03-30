@@ -32,12 +32,13 @@ public class Activity_cad_aluno extends AppCompatActivity {
                     Toast.makeText(Activity_cad_aluno.this, "Preencha o campo CPF!", Toast.LENGTH_LONG).show();
                 } else if (curso.getText().length()== 0) {
                     Toast.makeText(Activity_cad_aluno.this, "Preencha o campo curso!", Toast.LENGTH_LONG).show();
-                } else {
+                } else if (cpf.getText().length()== 11){
                     Toast.makeText(Activity_cad_aluno.this, "Cadastro realizado com sucesso!", Toast.LENGTH_LONG).show();
                     nome.setText("");
                     cpf.setText("");
                     curso.setText("");
             }
+                else Toast.makeText(Activity_cad_aluno.this, "Campo CPF deve conter onze dígitos!", Toast.LENGTH_LONG).show();
            }
         });
     }
