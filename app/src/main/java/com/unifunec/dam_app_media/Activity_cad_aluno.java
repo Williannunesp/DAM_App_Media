@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.Toast;
 
 public class Activity_cad_aluno extends AppCompatActivity {
@@ -15,12 +16,14 @@ public class Activity_cad_aluno extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cad_aluno);
+        this.setTitle("               CADASTRO DE ALUNO");
 
         Button salvar = findViewById(R.id.buttonSalvar);
 
         EditText nome = findViewById(R.id.editTextCampoNome);
         EditText cpf = findViewById(R.id.editTextCampoCpf);
         EditText curso = findViewById(R.id.editTextCampoCurso);
+        ImageButton perfil = findViewById(R.id.imageButtonPerfil);
 
         salvar.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -41,5 +44,13 @@ public class Activity_cad_aluno extends AppCompatActivity {
                 else Toast.makeText(Activity_cad_aluno.this, "Campo CPF deve conter onze dígitos!", Toast.LENGTH_LONG).show();
            }
         });
+
+        perfil.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(Activity_cad_aluno.this, "Não possui fotos para inserir no momento!", Toast.LENGTH_LONG).show();
+            }
+        });
+
     }
 }

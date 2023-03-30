@@ -18,7 +18,7 @@ public class Activity_calculo_media extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_calculo_media);
-        this.setTitle("CALCULO DE MÉDIA");
+        this.setTitle("                 CALCULO DE MÉDIA");
 
         EditText nota1 = findViewById(R.id.edit_Nota1);
         EditText nota2 = findViewById(R.id.edit_Nota2);

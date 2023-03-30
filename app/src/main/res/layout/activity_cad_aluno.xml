@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".Activity_cad_aluno">
 
+
     <TextView
         android:id="@+id/textNome"
         android:layout_width="wrap_content"
@@ -16,10 +17,10 @@
         android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/textCurso"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintHorizontal_bias="0.048"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.153" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/textCpf"
@@ -30,10 +31,10 @@
         android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/textCurso"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.043"
+        app:layout_constraintHorizontal_bias="0.046"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textNome"
-        app:layout_constraintVertical_bias="0.74" />
+        app:layout_constraintVertical_bias="0.45999998" />
 
     <TextView
         android:id="@+id/textCurso"
@@ -44,14 +45,10 @@
         android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/imageViewLogoUnifunec"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.048"
+        app:layout_constraintHorizontal_bias="0.045"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-<<<<<<< Updated upstream
-        app:layout_constraintVertical_bias="0.272" />
-=======
-        app:layout_constraintVertical_bias="0.251" />
->>>>>>> Stashed changes
+        app:layout_constraintVertical_bias="0.3" />
 
     <TextView
         android:id="@+id/textCampoNome"
@@ -92,12 +89,6 @@
         app:layout_constraintHorizontal_bias="0.533"
         app:layout_constraintStart_toEndOf="@+id/textCurso"
         app:layout_constraintTop_toBottomOf="@+id/textCampoCpf" />
-<<<<<<< Updated upstream
-=======
-
-
-
->>>>>>> Stashed changes
 
     <ImageView
         android:id="@+id/imageViewLogoUnifunec"
@@ -108,35 +99,41 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.86" />
+        app:layout_constraintVertical_bias="0.8" />
 
     <Button
         android:id="@+id/buttonSalvar"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:layout_marginEnd="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="5dp"
         android:backgroundTint="@color/gray"
         android:backgroundTintMode="add"
         android:text="SALVAR"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         android:textColor="@color/black"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageViewLogoUnifunec" />
+        app:layout_constraintTop_toBottomOf="@+id/imageViewLogoUnifunec"
+        app:layout_constraintVertical_bias="1.0"
+        app:rippleColor="@color/blue" />
 
     <TextView
         android:id="@+id/textFoto"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Foto:"
+        android:textColor="@color/black"
+        android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/imageViewLogoUnifunec"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.271"
+        app:layout_constraintHorizontal_bias="0.617"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.738" />
+        app:layout_constraintVertical_bias="0.459" />
 
     <EditText
         android:id="@+id/editTextCampoNome"
@@ -154,7 +151,7 @@
         app:layout_constraintHorizontal_bias="0.786"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.074" />
+        app:layout_constraintVertical_bias="0.050000012" />
 
     <EditText
         android:id="@+id/editTextCampoCpf"
@@ -173,7 +170,7 @@
         app:layout_constraintHorizontal_bias="0.786"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.173" />
+        app:layout_constraintVertical_bias="0.17000002" />
 
     <EditText
         android:id="@+id/editTextCampoCurso"
@@ -190,6 +187,18 @@
         app:layout_constraintHorizontal_bias="0.786"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.271" />
+        app:layout_constraintVertical_bias="0.3" />
+
+    <ImageButton
+        android:id="@+id/imageButtonPerfil"
+        android:layout_width="100dp"
+        android:layout_height="105dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageViewLogoUnifunec"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.902"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.563"
+        app:srcCompat="@drawable/perfilpng" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

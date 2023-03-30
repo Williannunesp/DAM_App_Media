@@ -13,6 +13,7 @@ public class Activity_coordenador extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_coordenador);
+        this.setTitle("                    COORDENADOR");
 
         TextView t9 = findViewById(R.id.textView9);
 

@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        this.setTitle("                     UNIFUNEC 2023");
 
         Button cor = findViewById(R.id.btn_coor);
 
