@@ -33,7 +33,7 @@
         app:layout_constraintHorizontal_bias="0.043"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textNome"
-        app:layout_constraintVertical_bias="0.615" />
+        app:layout_constraintVertical_bias="0.74" />
 
     <TextView
         android:id="@+id/textCurso"
@@ -44,11 +44,10 @@
         android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/imageViewLogoUnifunec"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintHorizontal_bias="0.048"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-<<<<<<< Updated upstream
-        app:layout_constraintVertical_bias="0.251" />
+        app:layout_constraintVertical_bias="0.272" />
 
     <TextView
         android:id="@+id/textCampoNome"
@@ -89,9 +88,6 @@
         app:layout_constraintHorizontal_bias="0.533"
         app:layout_constraintStart_toEndOf="@+id/textCurso"
         app:layout_constraintTop_toBottomOf="@+id/textCampoCpf" />
-=======
-        app:layout_constraintVertical_bias="0.29000002" />
->>>>>>> Stashed changes
 
     <ImageView
         android:id="@+id/imageViewLogoUnifunec"
@@ -134,12 +130,14 @@
 
     <EditText
         android:id="@+id/editTextCampoNome"
+        style="@style/Widget.AppCompat.EditText"
         android:layout_width="280dp"
         android:layout_height="41dp"
         android:ems="10"
         android:hint="digite seu nome"
         android:inputType="textPersonName"
         android:textColor="@color/black"
+        android:textColorLink="@color/blue"
         android:textSize="16sp"
         app:layout_constraintBottom_toTopOf="@+id/imageViewLogoUnifunec"
         app:layout_constraintEnd_toEndOf="parent"
@@ -150,11 +148,15 @@
 
     <EditText
         android:id="@+id/editTextCampoCpf"
+        style="@style/Widget.AppCompat.EditText"
         android:layout_width="280dp"
         android:layout_height="41dp"
         android:ems="10"
         android:hint="digite seu cpf"
+        android:hyphenationFrequency="none"
         android:inputType="numberSigned"
+        android:textColor="@color/black"
+        android:textColorLink="@color/blue"
         android:textSize="16sp"
         app:layout_constraintBottom_toTopOf="@+id/imageViewLogoUnifunec"
         app:layout_constraintEnd_toEndOf="parent"
@@ -166,11 +168,12 @@
     <EditText
         android:id="@+id/editTextCampoCurso"
         android:layout_width="280dp"
-        android:layout_height="47dp"
+        android:layout_height="39dp"
         android:ems="10"
         android:hint="digite o curso"
         android:inputType="textPersonName"
         android:textColor="@color/black"
+        android:textColorLink="@color/blue"
         android:textSize="16sp"
         app:layout_constraintBottom_toTopOf="@+id/imageViewLogoUnifunec"
         app:layout_constraintEnd_toEndOf="parent"
